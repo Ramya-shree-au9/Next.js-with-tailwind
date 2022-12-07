@@ -4,7 +4,6 @@ import Hero from "../components/Hero/Hero";
 import Slider from "../components/Slider/Slider";
 import { SliderData } from "../components/Slider/SliderData";
 import Instagram from "../components/InstagramGallery/Instagram";
-import Contact from "../components/Contact/Contact";
 
 const Home: NextPage = () => {
   return (
@@ -20,7 +19,6 @@ const Home: NextPage = () => {
       <Hero heading="Let Starts" message="Learn Next.js" />
       <Slider slides={SliderData} />
       <Instagram />
-      <Contact />
     </>
   );
 };
